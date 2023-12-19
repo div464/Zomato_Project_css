@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Nightlife Restaurants in Bengaluru - Zomato</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row head">
+            <div class="col-md-2 ">
+                 <h1 class="heading">Zomato</h1>
+            </div>  
+            <div class="col-md-4">
+                <div class="dropdown dropdown-item">
+                    <i class="fa fa-map-marker" style="font-size:24px; display: inline;"></i>
+                    <input class="dropdown-toggle form-control" style="display: inline;" data-bs-toggle="dropdown" aria-expanded="false" value="Search location">
+    
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Bangalore</a></li>
+                        <li><a class="dropdown-item" href="#">Hyderabad</a></li>
+                        <li><a class="dropdown-item" href="#">Chennai</a></li>
+                    </ul>
+                </div>
+            </div> 
+                <div class="col-md-4">
+                    <input type="text" class = "form-control" id="searchInput" onkeyup="filterOptions()" placeholder="Search for Restaurant">
+                </div>   
+            <div class="col-md-1 menu-name">
+                <a class="credentials" href="/HTML_CSS_PROJECT/Log_in.html">Log in</a>
+            </div>  
+            <div class="col-md-1 menu-name">
+                <a class="credentials" href="/HTML_CSS_PROJECT/Sign_up.html">Sign up</a>
+            </div>
+        </div>
+        <div class="row">
+            <p> Home / India / Bengaluru Restaurants</p>
+        </div>  
+        <div class="row">
+            <div class="col-md-2">
+               <a class="menu-name" href="/HTML_CSS_PROJECT/projectZomato.html" >
+                    <img src="/HTML_CSS_PROJECT/delivery-modified.jpeg" alter="_blank" width="40px" > <b>Delivery</b>
+               </a>
+            </div>
+            <div class="col-md-2">
+                <a class="menu-name" href="/HTML_CSS_PROJECT/Dinning_out.html" >
+                    <img src="/HTML_CSS_PROJECT/images.jpeg" alter="_blank" width="40px" style="border-radius: 50%;"  > <b>Dining Out</b>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="menu-name" href="/HTML_CSS_PROJECT/Nightlife.html" >
+                    <img src="/HTML_CSS_PROJECT/nightlife.jpeg" alter="_blank" width="40px" style="border-radius: 50%;" > <b>Nightlife</b>
+                </a>
+            </div>
+        </div>  
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <h2>Collections</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Bengaluru, based on trends</p>
+            </div>
+            <div class="col-md-2">
+                <p>All collections in Bengaluru</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Calicut Restaurant</h5>
+                      <p class="card-text">Asian, Modern Indian, Continental, Sushi, North Indian, Chinese, Desserts, Beverages
+                        Whitefield, Bangalore
+                        Open now 7:15am – 11:15pm(Today)
+                        </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1592861956120-e524fc739696?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Foo Brigade Road</h5>
+                      <p class="card-text">Asian, Modern Indian, Continental, Sushi, North Indian, Chinese, Desserts, Beverages
+                        Whitefield, Bangalore
+                        Open now 7:15am – 11:15pm(Today)
+                        </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sashay-Taproom Kitchen</h5>
+                      <p class="card-text">Asian, Modern Indian, Continental, Sushi, North Indian, Chinese, Desserts, Beverages
+                        Whitefield, Bangalore
+                        Open now 7:15am – 11:15pm(Today)
+                        </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://b.zmtcdn.com/data/pictures/5/50975/82999e93973f568c7ae04f528994098a_featured_v2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">The 13th Floor</h5>
+                      <p class="card-text">North Indian, Asian, Kebab, Chinese, Salad, Beverages, Desserts
+                        Barton Centre, Bangalore
+                        Open now 7:15am – 11:15pm(Today)
+                        </p>
+                    </div>
+                  </div>
+            </div>   
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-2">
+                <input type="text" id="searchInput" onkeyup="filterOptions()" placeholder="Filters">
+            </div>
+            <div class="col-md-2">
+                <input type="text" id="searchInput" onkeyup="filterOptions()" placeholder="Rating: 4.0+">
+            </div>
+            <div class="col-md-2">
+                <input type="text" id="searchInput" onkeyup="filterOptions()" placeholder="Pure veg">
+            </div>
+            <div class="col-md-2">
+                <input type="text" id="searchInput" onkeyup="filterOptions()" placeholder="Pure veg">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <img src="https://b.zmtcdn.com/data/o2_assets/da94405b04f6ae6bf64a4e2a01b1b5c11686563732.png" alt="img" width="75%" height="50%">
+        </div>
+        <div class="row" style="margin: 2%;">
+            <div class="col-md-6">
+                <h2><b>Nightlife Restaurants in Bengaluru</b></h2>
+            </div>
+        </div>
+        <div class="row" style="padding: 2%;">
+            <div class="col-md-4">
+                <div class="card" style="width: 22rem;">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/1/20626791/1e6422a712bb8f10293fe80cc8e3ea59_featured_v2.jpg" class="card-img-top" style="width: 350px; height: 220px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Over Coffee Cafe & Wine Bar</h5>
+                      <p class="card-text">European, Italian, Continental, Cafe, Coffee
+                        Lavelle Road, Bangalore
+                        Open now 7:15am – 11:15pm(Today)
+                        </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 22rem;">
+                    <img src="https://b.zmtcdn.com/data/pictures/7/20828407/3ccdce59b3ae5220d967025b5e1a5500_featured_v2.jpg" class="card-img-top" style="width: 350px; height: 220px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">The Weekly Brewhouse</h5>
+                      <p class="card-text">Bar Food, Chinese, North Indian Pizza, Biryani, Beverages
+                        Hosur Road, Bangalore
+                        Open now 7:15am – 11:15pm(Today)
+                        </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 22rem;">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/5/20478855/c05533227fb3ec385da1e3e466abc19d_featured_v2.jpg" class="card-img-top" style="width: 350px; height: 220px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">XOOX Brewmill</h5>
+                      <p class="card-text">North Indian, Continental, Desserts Bangalore
+                        </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+       <!-- Footer -->
+   <footer  class="text-center text-lg-start bg-body-tertiary text-muted">
+    <div class=" footer" style="padding: 4%;">
+        <div class="row">
+            <div class="col-md-9">
+                <h1>Zomato</h1>
+            </div>
+            <div class="col-md-1">
+                <select id="Cuisines">
+                    <option value="Bangalore">India</option>
+                    <option value="Hyderabad">UAE</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                
+                <select id="Cuisines">
+                    <option value="Bangalore">Cuisines</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="pune">Pune</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Mumbai">Mumbai</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <h5>ABOUT ZOMATO</h5>
+            </div>
+            <div class="col-md-2">
+                <h5>ZOMAVERSE</h5>
+            </div>
+            <div class="col-md-2">
+                <h5>FOR RESTAURANTS</h5>
+            </div>
+            <div class="col-md-2">
+                <h5>FOR ENTERPRISES</h5>
+            </div>
+            <div class="col-md-2">
+                <h5>LEARN MORE</h5>
+            </div>
+            <div class="col-md-2">
+                <h5>SOCIAL LINKS</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <p>Who We Are</p>
+            </div>
+            <div class="col-md-2">
+                <p>Zomato</p>
+            </div>
+            <div class="col-md-2">
+                <p>Partner with us</p>
+            </div>
+            <div class="col-md-2">
+                <p>Zomato For Enterprise</p>
+            </div>
+            <div class="col-md-2">
+                <p>Privacy</p>
+            </div>
+            <div class="col-md-2">
+                <img src="\HTML_CSS_PROJECT\linkedin.png" alt="img" style="height: 35px;width:35px;">
+                <img src="\HTML_CSS_PROJECT\instagram.png" alt="img" style="height: 35px;width:35px;">
+                <img src="\HTML_CSS_PROJECT\twitter.png" alt="img" style="height: 35px;width:35px;">
+                <img src="\HTML_CSS_PROJECT\facebook.png" alt="img" style="height: 35px;width:35px;">
+     
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <p>Blog</p>
+            </div>
+            <div class="col-md-2">
+                <p>Blinkit</p>
+            </div>
+            <div class="col-md-2">
+                <p>Apps For You</p>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-2">
+                <p>Security</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <p>Work With Us</p>
+            </div>
+            <div class="col-md-2">
+                <p>Feeding India</p>
+            </div>
+            <div class="col-md-2">
+               
+            </div>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-2">
+                <p>Terms</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <p>Investor Relations</p>
+            </div>
+            <div class="col-md-2">
+                <p>Hyperpure</p>
+            </div>
+            <div class="col-md-2">
+                
+            </div>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-2">
+                <p>Site map</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <p>Report Fraud</p>
+            </div>
+            <div class="col-md-2">
+                <p>Zomaland</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <p>Press Kit</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <p>Contact Us</p>
+            </div>
+        </div>
+        <hr> 
+        <div class="row">
+            <div class="col-md-12">
+                <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. 
+                    All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</p>
+            </div>
+        </div>   
+    </div>
+   </footer>
+    <!-- Footer -->
+    
+</body>
+</html>

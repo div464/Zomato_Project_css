@@ -1,0 +1,50 @@
+body{
+    background-color: #F1EAFF;
+}
+.head{
+    font-size: large;
+    margin-top: 2%;
+}
+
+.dropdown-item{
+    background-color: #ffff;
+}
+
+.heading
+{
+    font: 3em x-small;
+    font-family: 'Arial', sans-serif;
+}
+.first_order{
+    background-color: #E5D4FF;
+   
+}
+.footer
+{
+    background-color: #E5D4FF; 
+   
+}
+
+a{
+    text-decoration: none;
+    color: #191919;
+}
+
+.menu-name{
+    font-size:x-large;
+    font-family:sans-serif
+}
+
+.menu-name:hover{
+    color: #BE3144;
+    text-decoration: underline;
+}
+
+.filter-files {
+    border-radius: 5px;
+}
+
+.credentials:hover{
+    color: #BE3144;
+    text-decoration: underline;
+}
